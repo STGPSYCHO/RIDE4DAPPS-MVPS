@@ -23,10 +23,10 @@ class App extends React.Component {
                       txid: ''
                     }
                 };
-                this.baseUri = 'https://testnodes.wavesnodes.com';
+                this.baseUri = 'https://nodes-testnet.wavesnodes.com/';
                 this.wavelet = 100000000;
                 this.dappaddress = '3N4GgQWCckqUn1H9y8rNRyCXZPkgKTNKznT';
-                this.explorerUrl = "https://wavesexplorer.com/testnet";
+                this.explorerUrl = "https://wavesexplorer.com/?network=testnet";
                 this.deposit = this.deposit.bind(this);
                 this.invest = this.invest.bind(this);
                 this.getFunds = this.getFunds.bind(this);
